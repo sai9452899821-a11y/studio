@@ -7,3 +7,20 @@
   from   = "/*"
   to     = "/index.html"
   status = 200
+```
+
+Click **Commit changes**
+
+---
+
+## Your repo structure should look like this
+```
+vcspro/                     ← repo root
+├── netlify.toml            ← HERE (root level)
+├── frontend/
+│   ├── src/
+│   └── ...
+└── studio/
+    ├── sanity.cli.js
+    ├── sanity.config.js
+    └── ...
